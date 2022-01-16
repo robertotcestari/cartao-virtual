@@ -15,16 +15,15 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
-  opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@bnb/card  (via GitHub Package Registry)'),
+  name: chalk.white('               Turma XP - B'),
+  work: chalk.white('Trybe - Turma XP B'),
+  opensource: chalk.white('https://github.com/tryber ') + chalk.green('⬢'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('turmaXp'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('turmaXp'),
+  github: chalk.gray('https://github.com/') + chalk.green('turmaXp'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('turmaXp'),
+  web: chalk.cyan('https://turma-xp.com.br'),
+  npx: chalk.red('npx') + ' ' + chalk.white('turma-xp'),
   labelWork: chalk.white.bold('       Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
@@ -37,7 +36,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name} / ${data.handle}`
+const heading = `${data.name}`
 const working = `${data.labelWork}  ${data.work}`
 const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
